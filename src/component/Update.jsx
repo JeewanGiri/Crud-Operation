@@ -14,7 +14,7 @@ const Update = () => {
     },[])
     const handleUpdate=(e)=>{
         e.preventDefault();
-        axios.put(`https://6674296c75872d0e0a955b72.mockapi.io/crud/crud-data/${id}`,
+        axios.put(`https://6674296c75872d0e0a955b72.mockapi.io/data/crud-data/${id}`,
             {
                 name:name,
                 email:email,
